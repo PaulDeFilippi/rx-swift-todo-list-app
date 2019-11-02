@@ -12,6 +12,7 @@
 		4FA88241236E1AEA0052FFF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FA88240236E1AEA0052FFF7 /* Assets.xcassets */; };
 		4FA88244236E1AEA0052FFF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FA88242236E1AEA0052FFF7 /* LaunchScreen.storyboard */; };
 		4FA8824D236E298B0052FFF7 /* TaskListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA8824C236E298B0052FFF7 /* TaskListViewController.swift */; };
+		4FA8824F236E46EC0052FFF7 /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA8824E236E46EC0052FFF7 /* AddTaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4FA88243236E1AEA0052FFF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4FA88245236E1AEA0052FFF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FA8824C236E298B0052FFF7 /* TaskListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewController.swift; sourceTree = "<group>"; };
+		4FA8824E236E46EC0052FFF7 /* AddTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				4FA8824C236E298B0052FFF7 /* TaskListViewController.swift */,
+				4FA8824E236E46EC0052FFF7 /* AddTaskViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FA8823A236E1AE80052FFF7 /* AppDelegate.swift in Sources */,
+				4FA8824F236E46EC0052FFF7 /* AddTaskViewController.swift in Sources */,
 				4FA8824D236E298B0052FFF7 /* TaskListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
