@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F126909238C654A00007721 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F126908238C654A00007721 /* Task.swift */; };
 		4FA8823A236E1AE80052FFF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA88239236E1AE80052FFF7 /* AppDelegate.swift */; };
 		4FA8823F236E1AE80052FFF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FA8823D236E1AE80052FFF7 /* Main.storyboard */; };
 		4FA88241236E1AEA0052FFF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FA88240236E1AEA0052FFF7 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F126908238C654A00007721 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		4FA88236236E1AE80052FFF7 /* rx-todo-list.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rx-todo-list.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FA88239236E1AE80052FFF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4FA8823E236E1AE80052FFF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F126907238C652D00007721 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4F126908238C654A00007721 /* Task.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		4FA8822D236E1AE80052FFF7 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +66,7 @@
 		4FA88238236E1AE80052FFF7 /* rx-todo-list */ = {
 			isa = PBXGroup;
 			children = (
+				4F126907238C652D00007721 /* Models */,
 				4FA8824B236E296E0052FFF7 /* Controllers */,
 				4FA88239236E1AE80052FFF7 /* AppDelegate.swift */,
 				4FA8823D236E1AE80052FFF7 /* Main.storyboard */,
@@ -146,6 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F126909238C654A00007721 /* Task.swift in Sources */,
 				4FA8823A236E1AE80052FFF7 /* AppDelegate.swift in Sources */,
 				4FA8824F236E46EC0052FFF7 /* AddTaskViewController.swift in Sources */,
 				4FA8824D236E298B0052FFF7 /* TaskListViewController.swift in Sources */,
